@@ -107,3 +107,11 @@ class TelegramSender:
             shutil.rmtree(temp_dir)
 
         return ["Telegram message sent successfully"]
+
+NODE_CLASS_MAPPINGS = {
+    "TelegramSender": TelegramSender
+}
+
+NODE_DISPLAY_NAME_MAPPINGS = {
+    "TelegramSender": "TelegramSender",
+}
